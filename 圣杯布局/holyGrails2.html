@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Holy Grails</title>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.header,.footer{
+	border: 1px solid #333;
+	background: #ccc;
+	/* text-align: center; */
+}
+.container {
+    padding:0 220px 0 200px;
+    overflow: hidden;
+}
+.left, .middle, .right {
+    position: relative;
+    float: left;
+    min-height: 130px;
+}
+.left{
+	width: 200px;
+	background: red;
+	margin-left: -100%;
+    left: -200px;
+}
+.right{
+	width: 220px;
+	background: green;
+	margin-left: -220px;
+    right: -220px;
+}
+.middle{
+	width: 100%;
+	background: blue;
+}
+</style>
+</head>
+<body>
+<div class="header">
+    <h4>header</h4>
+</div>
+<div class="container">
+	<div class="middle">
+		<h4>middle</h4>
+		<p>middle-content</p>
+	</div>
+	
+	<div class="left">
+		<h4>left</h4>
+		<p>left-content</p>
+	</div>
+	
+	<div class="right">
+		<h4>right</h4>
+		<p>right-content</p>
+	</div>
+</div>
+<div class="footer">
+    <h4>footer</h4>
+</div>
+</body>
+</html>
