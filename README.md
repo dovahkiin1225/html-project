@@ -1,5 +1,6 @@
 # html-project
 a project for html study
+
 用于说明 commit 的类别，只允许使用下面7个标识。
 
 feat：新功能（feature）
